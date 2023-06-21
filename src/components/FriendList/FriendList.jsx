@@ -20,7 +20,7 @@ export function FriendList({friends}) {
 }
 
 FriendList.propTypes ={
-    friends: PropTypes.arrayOf(PropTypes.exact({
+    friends: PropTypes.arrayOf(PropTypes.shape({
         id: PropTypes.number.isRequired,
     })),
 }
