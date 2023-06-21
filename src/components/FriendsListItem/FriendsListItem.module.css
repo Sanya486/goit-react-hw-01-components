@@ -1,0 +1,29 @@
+.item {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+
+    width: 200px;
+
+    border: 1px solid rgb(183, 183, 211);
+    padding: 10px;
+
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.isOnline{
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.isOffline{
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+}
